@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Baloo+Bhai+2&family=Bree+Serif&family=Concert+One&family=Crimson+Text:ital@1&family=Exo+2:ital,wght@1,300&family=Fredoka+One&family=Itim&family=Mochiy+Pop+One&family=Oswald&family=Permanent+Marker&family=Rampart+One&display=swap');
+
+body{
+    /* background-color: rgb(245, 245, 245); */
+    background-color: #ccb4d178;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Itim', cursive;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: rgb(255 66 66);
+    height: 90px;
+}
+nav ul li{
+    padding: 0 27px;
+}
+.brand img{
+width: 78px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.container{
+    min-height: 70vh;
+    background-color: rgb(253, 222, 227);
+    color: black;
+    font-family: 'Itim', cursive;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius:10px ;
+    padding: 34px;
+     background-image: url(musicBg14.jpg);
+     background-repeat: no-repeat;
+   
+}
+.songList{
+    width:80%;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+     background-color: rgb(255 66 66);
+     bottom: 0;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+
+}
+.icons{
+    margin: 10px 0;
+    /* padding: 12px; */
+}
+.icons i{
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 37px;
+    /* width: 30vw; */
+    /* width: 120%; */
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    /* background-color: white; */
+     background-color: #bf9fc5;
+    /* width: 80%; */
+    /* width: 194%; */
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 23px;
+    font-size: 1.25rem;
+}
+.songItem img{
+    width: 45px;
+    margin: 23px 10px;
+    border-radius: 23px;
+}
+.timeStamp{
+    margin: 0 23px;
+    cursor: pointer;
+}
+.songListPlay{
+    padding: 2px;
+}
+.songInfo{
+    position: absolute;
+    left:10vw;
+     font-family: 'Itim', cursive;
+     
+}
+.songInfo img{ 
+   opacity: 0;
+   transition: opacity 0.4s ease-in;
+}
